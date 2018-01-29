@@ -19,6 +19,7 @@ var request = require('request')
 var bodyParser = require('body-parser')
 var app = express()
 
+// NOTE: the namespace name is hardcoded here!
 var guestbookendpoint = 'http://guestbook-service.demo:8080/api/messages'
 var helloendpoint = 'http://helloworld-service-vertx.demo:8080/api/hello/'
 
