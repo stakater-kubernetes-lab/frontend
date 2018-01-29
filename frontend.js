@@ -19,8 +19,8 @@ var request = require('request')
 var bodyParser = require('body-parser')
 var app = express()
 
-var guestbookendpoint = 'http://guestbook-service:8080/api/messages'
-var helloendpoint = 'http://helloworld-service-vertx:8080/api/hello/'
+var guestbookendpoint = 'http://guestbook-service.demo:8080/api/messages'
+var helloendpoint = 'http://helloworld-service-vertx.demo:8080/api/hello/'
 
 // Creates a $request callback using $express objects
 var defaultHandling = function(res, next) {
