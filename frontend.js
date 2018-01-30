@@ -20,8 +20,8 @@ var bodyParser = require('body-parser')
 var app = express()
 
 // NOTE: the namespace name is hardcoded here!
-var guestbookendpoint = 'http://guestbook-service.demo:8080/api/messages'
-var helloendpoint = 'http://helloworld-service-vertx.demo:8080/api/hello/'
+var guestbookendpoint = 'https://guestbook-service.test2.stackator.com/api/messages'
+var helloendpoint = 'https://helloworld-service-vertx.test2.stackator.com/api/hello/'
 
 // Creates a $request callback using $express objects
 var defaultHandling = function(res, next) {
