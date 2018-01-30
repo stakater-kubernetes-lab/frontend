@@ -13,7 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM openshift/nodejs-010-centos7
+#FROM openshift/nodejs-010-centos7
+
+FROM stakater/node:6.9
 
 ADD . /opt/app-root/src/
 
