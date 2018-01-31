@@ -19,7 +19,6 @@ var request = require('request')
 var bodyParser = require('body-parser')
 var app = express()
 
-// NOTE: the namespace name is hardcoded here!
 var guestbookendpoint = 'https://guestbook-service.test2.stackator.com/api/messages'
 var helloendpoint = 'https://helloworld-service-vertx.test2.stackator.com/api/hello/'
 
