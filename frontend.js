@@ -20,7 +20,7 @@ var bodyParser = require('body-parser')
 var app = express()
 
 var guestbookendpoint = 'https://guestbook-service.test2.stackator.com/api/messages'
-var helloendpoint = 'https://helloworld-service-vertx.test2.stackator.com/api/hello/'
+var helloendpoint = 'https://helloworld-service.test2.stackator.com/api/hello/'
 
 // Creates a $request callback using $express objects
 var defaultHandling = function(res, next) {
